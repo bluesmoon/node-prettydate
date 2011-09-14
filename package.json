@@ -1,0 +1,13 @@
+{
+	"name"            :  "prettydate",
+	"version"         :  "0.0.1",
+	"description"     :  "Format dates nicely",
+	"keywords"        :  [ "strftime", "date", "datetime", "date format", "iso8601", "rfc2822", "unixtime" ],
+	"homepage"        :  "https://github.com/bluesmoon/node-prettydate",
+	"author"          :  "Philip Tellis <philip@bluesmoon.info> (http://bluesmoon.info/)",
+	"main"            :  "lib/prettydate.js",
+	"files"           :  ["lib/*.js"],
+	"main"            :  "lib/prettydate.js",
+	"repository"      :  { "type": "git", "url": "git://github.com/bluesmoon/node-prettydate.git" },
+	"engines"         : { "node": "*" }
+}
