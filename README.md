@@ -32,10 +32,10 @@ a binding for the strftime function provided by libc.  There are a few reasons n
 synopsis
 --------
 
-    require('prettydate').augmentDate();
+    var strftime=require('prettydate').strftime;
 
     var d=new Date();
-    console.log(d.strftime("%c"));
+    console.log(strftime(d, "%c"));
     
 
 installation
